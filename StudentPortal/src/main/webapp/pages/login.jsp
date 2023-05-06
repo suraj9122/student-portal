@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Leeds Beckett University </h1>
- <form method="post" action="register">
+ <form method="post" action="userdetails">
       <label for="field1">Field 1:</label>
       <input type="text" name="id" id="field1" /><br />
       <label for="field2">Field 2:</label>

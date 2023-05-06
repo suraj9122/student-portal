@@ -9,20 +9,25 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class controller {
 	@RequestMapping("login")
-		public String showlogin(@ModelAttribute user us, Model model){
+		public String showlogin(@ModelAttribute Register rg, Model model){
+		System.out.print(rg);
 		
 		return("login");
 	}
-	@RequestMapping("userdata")
+	@RequestMapping("userdetails")
 	public String handleForm(@ModelAttribute user us, Model model) {
-		
-		
-		System.out.print(us);
-	return("login");
+		 
+		String a=us.getId();
+		System.out.print(a);
+		Integer b=12;
+		if (a.equals(b.toString()))		
+		return("userdetails");
+		else;
+			return("login");
 	}
 	@RequestMapping("register")
-public String registeruser(@ModelAttribute Register rg, Model model) {
-						System.out.print(rg);
+public String registeruser() {
+						
 	return("register");
 }
  

@@ -17,7 +17,7 @@
       <label for="field2">email</label>
       <input type="text" name="mail" id="mail" /><br />
       <button type="submit" name="submit" value="Login">Save</button>
-        <button type="submit" name="submit1" value="Login">Register</button>
+      
    
     </form>
     	
